@@ -1,0 +1,33 @@
+.cell{
+   
+    border: black solid 3px;
+    font-size: 5vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.cell:hover{
+    background-color: rgb(147, 207, 191);
+}
+.Container{
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw) ;
+    cursor: pointer;
+}
+.gameContainer{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.boxtext{
+    justify-content: center;
+    
+}
+.restart:hover{
+    opacity: 0.75;
+}
+/* .restart{
+
+} */

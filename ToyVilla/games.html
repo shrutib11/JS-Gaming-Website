@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToyVilla</title>
+    <link rel = "icon" href = "images/favicon.png" type = "image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+</head>
+<body style="background-color:rgb(170, 210, 199) ;">
+    <!-- Vertical navbar -->
+<div class="vertical-nav bg-white" id="sidebar">
+    <div class="py-4 px-3 mb-4 bg-light">
+      <div class="media d-flex align-items-center">
+        <img loading="lazy" src="images/final.jpg" alt="..." width="80" height="80" class="mr-3 rounded-circle img-thumbnail shadow-sm">
+        <div class="media-body">
+          <h4 class="m-0">ToyVilla</h4>
+          <p class="font-weight-normal text-muted mb-0">ToyVilla</p>
+        </div>
+      </div>
+    </div>
+  
+    <p class="text-gray font-weight-bold text-uppercase px-3 small pb-4 mb-0">Explore</p>
+  
+    <ul class="nav flex-column bg-white mb-0">
+      <li class="nav-item">
+        <a href="home.html" class="nav-link text-dark bg-light">
+                  <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                  home
+              </a>
+      </li>
+      <li class="nav-item">
+        <a href="about.html" class="nav-link text-dark">
+                  <i class="fa fa-address-card mr-3 text-primary fa-fw"></i>
+                  about
+              </a>
+      </li>
+      <li class="nav-item">
+        <a href="games.html" class="nav-link text-dark">
+                  <i class="fa fa-cubes mr-3 text-primary fa-fw"></i>
+                  games
+              </a>
+      </li>
+      <li class="nav-item">
+          <a href="contact.html" class="nav-link text-dark">
+                    <i class="fa fa-envelope mr-3 text-primary fa-fw"></i>
+                    contact
+                </a>
+        </li>
+    </ul>
+  </div>
+  <div class="page-content p-5" id="content">
+    <!-- Toggle button -->
+    <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold">Toggle</small></button>
+
+    <section class="gallery">
+        <div class="container">
+            <div class="cont1" align="center">
+                <div class="heading">
+                    <h3>Fun <span>booth</span></h3>
+                </div>
+            <br><br>
+        </div>
+            <div class="row">
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="images/Tictac.jpeg" alt="" class="image card-img-top" height="343px">
+                            <div class="overlay">
+                                <a href="Tic-Tac-Toe.html"><button class="btn btn-outline-secondary btn-sm"><i class="far font-awesome"></i>PLAY</button></a>
+                                <button onclick="func()" class="btn btn-outline-secondary btn-sm"><i class="far fa-heart"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Tic-Tac-Toe</h5>
+                            
+                            <p class="card-text">Tic-Tac-Toe is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.</p>
+                        </div>
+                    </div>
+                </div>
+<!--
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="images/floppy_bird.jpeg" alt="" class="image card-img-top" height="350px">
+                            <div class="overlay">
+                                <a href="flap.html"><button class="btn btn-outline-secondary btn-sm"><i class="far font-awesome"></i>PLAY</button></a>
+                                <button onclick="func()" class="btn btn-outline-secondary btn-sm"><i class="far fa-heart"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Flappy Bird</h5>
+                            
+                            <p class="card-text">Flappy Bird is an arcade-style game in which the player controls the bird Faby, which moves persistently to the right. The player is tasked with navigating Faby through pairs of pipes that have equally</p>
+                        </div>
+                    </div>
+                </div>
+                -->
+
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="unnamed.jpeg" alt="" class="image card-img-top" height="343px">
+                            <div class="overlay">
+                                <a href="guessno.html"><button class="btn btn-outline-secondary btn-sm"><i class="far font-awesome"></i>PLAY</button></a>
+                                <button onclick="func()" class="btn btn-outline-secondary btn-sm"><i class="far fa-heart"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Guessing Game</h5>
+                            
+                            <p class="card-text">The game is one-person game called "Guess the Number". Here, the player tries to guess the number. If the guess is incorrect, then the simulator displays whether the guess was too high or too low.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg">
+        <div class="container text-center">
+          <p class="font-italic text-muted mb-3">&copy; Copyrights toyvilla@gmail.com All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+   
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="home.js"></script>
